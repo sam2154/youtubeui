@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header {
+    border-bottom: 2px solid grey;
+} */
+.flex-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#right-navbar div:first-child img{
+    width: 32px;
+    height: 36px;
+    margin-left: 10px;
+}
+#right-navbar div:first-child img:hover{
+    cursor: pointer;
+}
+
+#right-navbar div:nth-child(2) img{
+    width: 102px;
+    height: 55px;
+    }
+    #right-navbar div:nth-child(2) img:hover{
+        cursor: pointer;
+    }
+/* Right navbar End */
+
+
+/* Center navbar Start */
+#center-navbar-search{
+    width: 512px;
+    height: 38px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin-right: 20px;
+}
+#center-navbar-search div:first-child input{
+    width: 455px;
+    height: 24px;
+    outline: none;
+    border: none;
+}
+#center-navbar-search div:nth-child(2) img{
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#center-navbar-search div:nth-child(2) img:hover{
+    cursor: pointer;
+}
+#voice-fill img{
+    width: 38px;
+    height: 38px;
+    background-color: rgba(128, 128, 128, 0.100);
+    border-radius: 50%;
+    padding: 5px;
+}
+#voice-fill img:hover{
+    cursor: pointer;
+}
+
+/* Center navbar End */
+
+
+/* Left navbar Start */
+#left-navbar div:first-child img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+#left-navbar div:first-child img:hover{
+    cursor: pointer;
+}
+#left-navbar div:nth-child(2) img{
+    width: 22px;
+    height: 22px;
+    margin: 10px;
+}
+#left-navbar div:nth-child(2) img:hover{
+    cursor: pointer;
+}
+#left-navbar div:nth-child(3) img{
+    width: 42px;
+    height: 42px;
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.100);
+    border-radius: 50%;
+    padding: 5px;
+}
+#left-navbar div:nth-child(3) img:hover{
+    cursor: pointer;
+}
+#left-navbar{
+    margin-right: 30px;
+}
+
+/* Side and main container positioning css Start */
+
+#side-and-main-container{
+/* background-color: blue; */
+display: flex;
+width: 100%;
+height: 90vh;
+}
+#side-and-main-container section:first-child{
+    /* background-color: blueviolet; */
+    width: 250px;
+    height: 90vh;
+}
+
+#side-and-main-container section:nth-child(2){
+    /* background-color: green; */
+    width: 100%;
+    height: 90vh;
+}
+
+
+/* Side-bar CSS Start */
+
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+#sidebar > div:first-child{
+    /* background-color: red; */
+    height:40px;
+    width: 100%;
+
+}
+#sidebar > div:first-child:hover{
+    background-color:gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(2){
+    height:40px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#sidebar > div:nth-child(2):hover{
+    background-color:gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(3){
+    height:40px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#sidebar > div:nth-child(4){
+    height:40px;
+    width: 100%;
+    /* background-color: rgb(171, 102, 12); */
+}
+#sidebar > div:nth-child(5){
+    height:40px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#sidebar > div:nth-child(6){
+    height:40px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#sidebar > div:nth-child(7){
+    height:40px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#sidebar > div:nth-child(8){
+    height:40px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#sidebar > div:nth-child(9){
+    height:40px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#sidebar > div:nth-child(10){
+    height:40px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#sidebar > div:nth-child(11){
+    height:40px;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#sidebar > div:nth-child(3):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(4):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(5):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(6):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(7):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(8):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(9):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(10):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:nth-child(11):hover{
+    background-color: gray;
+    cursor: pointer;
+}
+#sidebar > div:first-child img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(2) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(3) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(4) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(5) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(6) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(7) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(8) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(9) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(10) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#sidebar > div:nth-child(11) img{
+    width: 22px;
+    height: 22px;
+    margin:0px 15px;
+    padding: 2px;
+}
+#side-and-main-container section:first-child{
+    overflow-y: scroll;
+}
+/* Side-bar End */
+
+/* Main Screen CSS Start */
+#youTube-video-container{
+    margin:0px;
+}
+#video-content video{
+    width: 350px;
+    height: auto;
+    margin: 15px 10px 0px 15px;
+}
+
+#logo-title-threeDot div:first-child img{
+    height: 32px;
+    width: 32px;
+    margin: 2px 5px 5px 10px;
+    border-radius: 50%;
+    padding: 2px;
+}
+#logo-title-threeDot div:nth-child(3){
+    margin: 5px 5px 5px 100px;
+    padding: 0px;
+    /* background-color: brown; */
+}
+#logo-title-threeDot div:nth-child(3) img{
+    height: 20px;
+    width: 20px;
+}
+.main-content-display-flex{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+/* Main Containt CSS End */
+
+/* Entra css */
+.sidebar-title{
+    /* background-color:red; */
+    margin: 15px 15px 13px 15px;
+}
+#arrow-forward > img{
+    height: 10px;
+    width: 10px;
+    margin-left: 10px;
+}

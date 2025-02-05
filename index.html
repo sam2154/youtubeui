@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube UI Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav id="navbar" class="flex-container">
+      <!-- humberger Icon & youTube Icon -->
+      <div id="right-navbar" class="flex-box">
+        <div>
+          <img src="./images/humbergar-icon.jpg" alt="hambergar" srcset="" />
+        </div>
+        <div>
+          <img src="./images/youtube-logo.jpg" alt="youtube-logo" srcset="" />
+        </div>
+      </div>
+      <div id="center-navbar" class="flex-box">
+        <div id="center-navbar-search" class="flex-box">
+          <div>
+            <input type="text" placeholder="Search">
+          </div>
+          <div>
+            <img src="./images/search-icon.jpg" alt="search icon">
+          </div>
+        </div>
+        <div id="voice-fill">
+          <img src="./images/voice-icon.jpg" alt="voice search">
+        </div>
+      </div>
+      <div id="left-navbar" class="flex-container">
+        <div>
+          <img src="./images/video-recording-icon.jpg" alt="video-icon">
+        </div>
+        <div>
+          <img src="./images/notification-icon.jpg" alt="notification-icon">
+        </div>
+        <div>
+          <img src="./images/photograph.jpg" alt="profile-icon">
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main id="side-and-main-container">
+    <!-- Side bar section start from here -->
+    <section>
+      <div id="sidebar">
+        <div class="display-flex">
+          <div><img src="./images/home.png" alt="home icon"></div>
+          <div>Home</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/youtube-shorts.png" alt="youtube-shorts"></div>
+          <div>Shorts</div>
+        </div>
+
+        <div class="display-flex">
+          <div><img src="./images/youtube-subscriptions.png" alt="youtube-subscriptions"></div>
+          <div>Subscriptions</div>
+        </div>
+      </div>
+      <hr />
+      <!-- <h4 class="sidebar-title">You &nbsp;></h4> -->
+       <div class="sidebar-title display-flex">
+        <div><strong>You</strong></div>
+        <div id="arrow-forward"><img src="./images/arrow-forward.png" alt=""></div>
+       </div>
+      <div id="sidebar">
+        <div class="display-flex">
+          <div><img src="./images/history-24.png" alt="history-24"></div>
+          <div>History</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/playlist.png" alt="playlists"></div>
+          <div>Playlists</div>
+        </div>
+
+        <div class="display-flex">
+          <div><img src="./images/your-videos.png" alt="your-videos"></div>
+          <div>Your videos</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/your-courses.png" alt="your-videos"></div>
+          <div>Your courses</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/watch-later.svg" alt="watch-later"></div>
+          <div>Watch later</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/like.svg" alt="like"></div>
+          <div>Like videos</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/download.svg" alt="download"></div>
+          <div>downloads</div>
+        </div>
+
+      </div>
+      <hr />
+      <h4 class="sidebar-title">Subscriptions</h4>
+      <div id="sidebar">
+        <div class="display-flex">
+          <div><img src="./images/jio.jpeg" alt="Channel icon"></div>
+          <div>jio.com</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel icon"></div>
+          <div>SonySub</div>
+        </div>
+
+        <div class="display-flex">
+          <div><img src="./images/profile-logo.jpg" alt="Geekstar.in"></div>
+          <div>Geekstar.in</div>
+        </div>
+      </div>
+      <hr />
+      <h4 class="sidebar-title">Explore</h4>
+      <div id="sidebar">
+        <div class="display-flex">
+          <div><img src="./images/trending.png" alt="trending"></div>
+          <div>Trending</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/shopping-bag.png" alt="shopping-bag"></div>
+          <div>Shopping</div>
+        </div>
+
+        <div class="display-flex">
+          <div><img src="./images/music.png" alt="music"></div>
+          <div>Music</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/movie.png" alt="movies"></div>
+          <div>Movies</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/live.png" alt="live"></div>
+          <div>Live</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/gaming.png" alt="gaming"></div>
+          <div>Gaming</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/news.png" alt="news"></div>
+          <div>News</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/sports.png" alt="sports"></div>
+          <div>Sports</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/your-courses.png" alt="your-courses"></div>
+          <div>Courses</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/fashion-beauty.png" alt="fashion-beauty"></div>
+          <div>Fashion & Beauty</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/podcast.png" alt="podcast"></div>
+          <div>Podcast</div>
+        </div>
+      </div>
+      <hr />
+      <h4 class="sidebar-title">More from YouTube</h4>
+      <div id="sidebar">
+        <div class="display-flex">
+          <div><img src="./images/youtube-premium.png" alt="youtube-premium"></div>
+          <div>YouTube Premium</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/youtube-studio.png" alt="youtube-studio"></div>
+          <div>YouTube Studio</div>
+        </div>
+
+        <div class="display-flex">
+          <div><img src="./images/youtube-music.png" alt="youtube-music"></div>
+          <div>YouTube Music</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/youtube-kids.png" alt="youtube-kids"></div>
+          <div>YouTube Kids</div>
+        </div>
+      </div>
+      <hr class="sidebar-title"/>
+      <div id="sidebar">
+        <div class="display-flex">
+          <div><img src="./images/settings.png" alt="settings"></div>
+          <div>Settings</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/report-history.png" alt="report-history"></div>
+          <div>Report History</div>
+        </div>
+
+        <div class="display-flex">
+          <div><img src="./images/help.png" alt="help"></div>
+          <div>Help</div>
+        </div>
+        <div class="display-flex">
+          <div><img src="./images/feedback.png" alt="feedback"></div>
+          <div>Send Feedback</div>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- Side bar section End here -->
+    <!-- main Screen Section start from here -->
+    <section id="main-container" class="main-content-display-flex">
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/jio.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/jio.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+      <div id="youTube-video-container">
+        <div id="video-content"><video src="./videos/sajni-re-video.mp4" controls
+            poster="./images/Thumbnail.jpeg"></video></div>
+        <div id="logo-title-threeDot" class="display-flex">
+          <div><img src="./images/sony.jpeg" alt="Channel Logo" /></div>
+          <div>
+            <div>Full Stack Web Development</div>
+            <div>Geekstar.in</div>
+          </div>
+          <div> <img src="./images/dots.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
